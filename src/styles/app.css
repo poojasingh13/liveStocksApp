@@ -1,0 +1,41 @@
+html, body, #root {
+    margin: 0;
+    padding: 0;   
+    width: 100%;
+    height: 100%;
+}
+
+.stocksApp {
+    position: relative;
+    width: 100%;
+    height: 100%;    
+    font-weight: normal;
+    font-size: 14px;
+    background: #fff;
+    color: black;
+    overflow: hidden;
+}
+.stock-list-header h2{
+	text-align: center;
+}
+
+.stock-list-table{
+	width:90%;
+	border:1px solid black; 
+	font-size: 20px;
+	border-collapse: collapse;
+	margin : 0 auto;
+}
+
+.stock-list-table tr{
+	border:1px solid black;
+	text-align: center;
+}
+
+.stock-list-table tr.up{
+	background: green;
+}
+
+.stock-list-table tr.down{
+	background: red;
+}
